@@ -16,7 +16,7 @@ setup(
     url='',
     description='',
     long_description=read('README.md'),
-    license='',
+    license=read('LICENSE.md'),
     install_requires=[],
     entry_points={
         'console_scripts': []
