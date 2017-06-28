@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def read(fname):
@@ -15,6 +15,7 @@ setup(
     author_email='alex.ellwein@gmail.com',
     url='',
     description='',
+    packages=find_packages(),
     long_description=read('README.md'),
     license=read('LICENSE.md'),
     install_requires=[],
