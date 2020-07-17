@@ -1,24 +1,14 @@
-#!/usr/bin/env python3
-import os
-
-from setuptools import setup, find_packages
-
-
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
+from setuptools import setup
 
 setup(
-    name='',
-    version='0.1',
+    name='myproj',
+    version='0.1+git',
     author='Alex Ellwein',
     author_email='alex.ellwein@gmail.com',
-    url='',
-    description='',
-    packages=find_packages(),
-    long_description=read('README.md'),
-    license=read('LICENSE.md'),
-    install_requires=[],
+    url='TBD',
+    description='TBD',
+    license='TBD',
+    extra_require={},
     entry_points={
         'console_scripts': []
     }

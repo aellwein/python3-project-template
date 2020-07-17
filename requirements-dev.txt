@@ -1,0 +1,4 @@
+# requirements used for development
+pylint==2.5.3
+autopep8==1.5.3
+-r requirements.txt
